@@ -98,4 +98,11 @@
       window.location.href = 'mailto:gmodisha@gmail.com?subject=' + subject + '&body=' + bodyMessage;
     });
   }
+
+  document.querySelectorAll('.stat-item').forEach(function (item) {
+    const text = item.textContent.toLowerCase();
+    if (text.includes('100%') && text.includes('black-owned')) {
+      item.remove();
+    }
+  });
 })();
