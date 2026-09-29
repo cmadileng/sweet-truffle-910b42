@@ -1,0 +1,21 @@
+<svg width="1600" height="620" viewBox="0 0 1600 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MGH Municipal Governance Hub logo">
+  <defs>
+    <style>
+      .mgh { font-family: 'Arial Black', 'Segoe UI', sans-serif; font-weight: 900; }
+      .tag { font-family: 'Arial Black', 'Segoe UI', sans-serif; font-weight: 900; }
+    </style>
+  </defs>
+
+  <g>
+    <path d="M0 170 C120 40, 285 0, 470 0 L570 0 L150 285 L0 285 Z" fill="#F2D741"/>
+    <path d="M0 300 C140 200, 300 145, 540 145 L700 145 L220 500 L0 500 Z" fill="#2E7B32"/>
+    <path d="M300 300 L500 300 L730 545 L545 545 Z" fill="#0B3D8D"/>
+
+    <g fill="#111111">
+      <text x="180" y="390" class="mgh" font-size="520" letter-spacing="-20">M</text>
+      <text x="735" y="390" class="mgh" font-size="520" letter-spacing="-18">GH</text>
+    </g>
+
+    <text x="120" y="560" class="tag" font-size="128" fill="#D91D1D" letter-spacing="2">MUNICIPAL GOVERNANCE HUB</text>
+  </g>
+</svg>
