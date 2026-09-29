@@ -99,7 +99,16 @@
     });
   }
 
+  // Remove "100% Black-owned" from stats bar
   document.querySelectorAll('.stat-item').forEach(function (item) {
+    const text = item.textContent.toLowerCase();
+    if (text.includes('100%') && text.includes('black-owned')) {
+      item.remove();
+    }
+  });
+
+  // Remove "100% Black-owned" from hero trust-points list
+  document.querySelectorAll('.trust-points li').forEach(function (item) {
     const text = item.textContent.toLowerCase();
     if (text.includes('100%') && text.includes('black-owned')) {
       item.remove();
